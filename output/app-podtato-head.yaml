@@ -15,5 +15,5 @@ spec:
   - name: podtato-head-right-leg
     version: 0.2.7
   - name: podtato-head-right-arm
-    version: 0.1.0
+    version: 0.1.1
 status: {}

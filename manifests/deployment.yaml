@@ -268,7 +268,7 @@ spec:
       annotations:
         app.kubernetes.io/part-of: podtato-head
         keptn.sh/workload: podtato-head-right-arm
-        keptn.sh/version: 0.1.0
+        keptn.sh/version: 0.1.1
         keptn.sh/pre-deployment-tasks: check-entry-service
     spec:
       terminationGracePeriodSeconds: 5
