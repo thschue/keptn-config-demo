@@ -14,4 +14,6 @@ jobs:
 
       - uses: thschue/keptn-config-generator@a2b5c7671b930c5d00f2c7701411877f53b2059e
         with:
-          input: manifests
+          input: "manifests"
+          output: "output"
+          version: "0.0.1"
