@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: thschue/keptn-config-generator
-	with:
+        with:
           input: manifests
