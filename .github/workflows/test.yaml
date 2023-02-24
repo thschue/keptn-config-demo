@@ -1,0 +1,17 @@
+name: Run Keptn App Generator
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: thschue/keptn-config-generator
+	with:
+          input: manifests
