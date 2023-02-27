@@ -1,0 +1,19 @@
+apiVersion: lifecycle.keptn.sh/v1alpha2
+kind: KeptnApp
+metadata:
+  creationTimestamp: null
+  name: podtato-head
+spec:
+  version: 0.0.6
+  workloads:
+  - name: podtato-head-hat
+    version: 0.1.0
+  - name: podtato-head-left-leg
+    version: 0.2.8
+  - name: podtato-head-left-arm
+    version: 0.2.7
+  - name: podtato-head-right-leg
+    version: 0.2.7
+  - name: podtato-head-right-arm
+    version: 0.1.0
+status: {}
