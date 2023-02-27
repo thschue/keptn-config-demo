@@ -14,6 +14,6 @@ jobs:
 
       - uses: thschue/keptn-config-generator@b48dd4f2ae343ec4ec555740d6a047e1e4c7667a
         with:
-          inputPath: "/github/workspace/manifests"
-          outputPath: "/github/workspace/output"
+          inputPath: "manifests"
+          outputPath: "output"
           version: "0.0.1"
