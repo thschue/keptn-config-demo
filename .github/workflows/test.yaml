@@ -16,5 +16,5 @@ jobs:
         with:
           inputPath: "manifests"
           outputPath: "output"
-          repository: "${{ github.event.repository.name }}"
+          repository: "${{ github.actor}}/${{ github.event.repository.name }}"
           token: "${{ secrets.GITHUB_TOKEN }}"
