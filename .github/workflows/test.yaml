@@ -18,3 +18,4 @@ jobs:
           outputPath: "output"
           repository: "${{ github.actor}}/${{ github.event.repository.name }}"
           token: "${{ secrets.GITHUB_TOKEN }}"
+          bump: "patch"
