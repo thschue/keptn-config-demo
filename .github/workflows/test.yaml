@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: thschue/keptn-config-generator@78637dbbec482756954f27f262b8b737a8f9a553
+      - uses: thschue/keptn-config-generator@c221fef3dc2efc4ea36caf3fbc2d8d11b474c0f1
         with:
           inputPath: "manifests"
           outputPath: "output"
