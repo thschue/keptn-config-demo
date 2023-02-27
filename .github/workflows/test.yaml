@@ -12,8 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: thschue/keptn-config-generator@547ab0a98179a86e829a310ae5846d2ee9b60070
+      - uses: thschue/keptn-config-generator@430a47f8daac8af832fa85ee3d1de49867bbed84
         with:
           inputPath: "manifests"
           outputPath: "output"
-          version: "0.0.1"
+          repository: "${{ github.event.repository.name }}"
+          token: "${{ secrets.GITHUB_TOKEN }}"
